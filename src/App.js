@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+import React from 'react';
+import { ManageTickets } from './pages/manageTickets/ManageTickets';
+import { SearchTicket } from './pages/searchTicket/SearchTicket';
+import { Home } from './pages/home/Home';
+import { BrowserRouter, Route, Routes, Redirect } from 'react-router-dom';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Home />} ></Route>
+        <Route path='/search' element={<SearchTicket />} ></Route>
+        <Route path='/manage-tickets' element={<ManageTickets />} ></Route>
+      </Routes>
+    </BrowserRouter>
     </div>
   );
 }

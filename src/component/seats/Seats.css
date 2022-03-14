@@ -1,0 +1,238 @@
+.seat-close {
+    float: right;
+    margin: 8px 15px 0 0;
+    font-weight: 700;
+    color: #000;
+    font-size: 23px;
+    cursor: pointer;
+    z-index: 1;
+    right: 0;
+    top: 2%;
+    position: absolute;
+}
+
+.seat-container {
+    width: 60%;
+    float: left;
+}
+
+.SeatsSelectorWrapper {
+    padding: 0;
+}
+
+.SeatsSelector {
+    width: 100%;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.m-top-10 {
+    margin-top: 10px;
+}
+.seatlayout-padding-10 {
+    padding-top: 30px;
+}
+.leftContent, .SeatsSelector {
+    width: 100%;
+}
+
+.seat-select-lbl, .seat-select-lblidn {
+    width: 100%;
+    padding: 10px 0;
+    font-weight: 700;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
+
+.seatSelMsg {
+    background-color: #d84e55;
+    color: #fff;
+    padding: 3px 20px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.seat-layout.clearfix {
+    display: table;
+    margin: 0 auto;
+}
+
+.fr {
+    float: right;
+}
+
+.fl {
+    float: left;
+}
+
+.canvas-wrapper {
+    padding: 0 20px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.seat-layout .label {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.label {
+    font-size: 13px;
+}
+
+audio, canvas, progress, video {
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+.canvas-wrapper {
+    padding: 0 20px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.m-top-10 {
+    margin-top: 10px;
+}
+.other-container {
+    width: 36%;
+    float: left;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.legend-container {
+    margin-top: 10px;
+}
+
+.legend-container h3 {
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.legend-header {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.legend-left {
+    margin-right: 50px;
+}
+
+.seat-legend-wrap {
+    width: 44%;
+    margin: 0;
+    float: left;
+    padding: 5px 0;
+}
+
+.available-sleep {
+    width: 34px;
+}
+
+.available-seat, .available-sleep {
+    border: 1px solid #a7a9ac;
+    height: 17px;
+    background-color: #fff;
+    margin-right: 10px;
+}
+
+.legend-label {
+    float: left;
+    text-transform: capitalize;
+    line-height: 17px;
+    font-weight: 300;
+}
+
+.unavailable-sleep {
+    width: 34px;
+}
+.unavailable-seat, .unavailable-sleep {
+    height: 17px;
+    background-color: #cbcbcb;
+    margin-right: 10px;
+}
+
+.seat-legend-wrap {
+    width: 44%;
+    margin: 0;
+    float: left;
+    padding: 5px 0;
+}
+
+.ladies-sleep {
+    width: 34px;
+}
+
+.ladies-seat, .ladies-sleep {
+    border: 1px solid #f1a9a0;
+    height: 17px;
+    background-color: #f1a9a0;
+    margin-right: 10px;
+}
+
+.gents-sleep {
+    width: 34px;
+}
+
+.gents-seat, .gents-sleep {
+    border: 1px solid #4a90e2;
+    height: 17px;
+    background-color: #fff;
+    margin-right: 10px;
+}
+
+audio, canvas, progress, video {
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+.deck-seat {
+    width: 454px;
+    height: 211px;
+    border-left: 8px solid #646363;
+}
+
+.seat-container-div {
+    background-color: #dfdfdf;
+}
+
+.deck-seat-inner {
+    height: 200px;
+    position: relative;
+    top: 7px;
+    left: 30px;
+    border: 1px solid black;
+}
+
+.seating {
+    width: 60px;
+    height: 30px;
+    border: 1px solid black;
+    position: relative;
+    top: 10px;
+}
+
+.seating div {
+    width: 1%;
+    height: 20px;
+    border: 1px solid black;
+    position: relative;
+    top: 15%;
+    left: 30px;
+}
+
+.spacing-seats {
+    position: relative;
+    top: 25px;
+}
+
+.pointer {
+    cursor: pointer;
+}
